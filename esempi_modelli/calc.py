@@ -10,6 +10,7 @@ def gestione_input():
     while operazione_scelta != "esci":
         if operazione_scelta == "addizione":
             res = operazione_addizione()
+
             print("la somma è: ", res)
         elif operazione_scelta == "conversione binario":
             res = conversione_binario()
@@ -25,7 +26,7 @@ def operazione_addizione(*addendi):
 
     Return:
         numero int o float"""
-    print("2+2=4")
+    pass
 
 
 def conversione_binario():
