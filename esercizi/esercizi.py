@@ -79,28 +79,3 @@ input_pulito = "" # = nell'input_pulito inseriamo il valore dell'input dopo aver
 #     pass
 #     # eliminare pass e completare il blocco del ciclo
 
-def funzione_con_parametri_esempio(numero):
-    if numero != 0: 
-        print("siamo nella funzione esempio")
-    for i in range(10):
-        print("#" * i)
-
-
-matricola = 10
-funzione_con_parametri_esempio(matricola)
-
-def funzione_saluti(nome):
-    if nome:
-        return "hello " + nome + '!'
-    # si poteva anche comporre la stringa con f"hello {nome}!"
-    else: 
-        print("manca il nome")
-
-
-funzione_saluti('')
-funzione_saluti('pietro')
-saluta_me = funzione_saluti("Pietro")
-print(saluta_me)
-
-def mando_saluti():
-    return "Hello World!"
