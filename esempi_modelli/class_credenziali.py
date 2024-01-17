@@ -30,6 +30,3 @@ class Credenziali:
 
 ## Esempio di uso della classe
 credenziali_user = Credenziali("utente", "1234!")
-
-## 
-from Modulo import funzione_del_modulo
