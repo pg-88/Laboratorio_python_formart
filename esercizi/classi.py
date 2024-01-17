@@ -21,6 +21,8 @@
         - aggiungi libro: crea un oggetto libro e lo inserisce in lista
         - rimuovi libro: individua un libro presente e lo rimuove dalla lista
 
+    Una volta fatto tutto quanto indicato sopra, come extra potete provare a gestire le date di prestito e rientro
+
     Sotto la struttura di base delle 2 classi:
 """
 
@@ -51,4 +53,28 @@ class Biblioteca:
         pass
 
     def rimuoviLibro(self, titolo: str, autore: str) -> None:
+        pass
+
+"""
+2) Persona: 
+    classe che raccoglie i dati di una persona:
+    - nome
+    - cognome
+    - altezza
+    - peso
+    metodi per aggiornare peso e altezza (potrebbe essere un bambino in fase di crescita)
+    metodo per il calcolo del bmi
+    ** Extra annotare in un file di testo tutti gli oggetti persona che vengono creati
+    (suggerimento nel costruttore apriamo un file e scriviamo le stesse stringhe che servono a creare le proprietà della classe)
+
+"""
+class Persona:
+    
+    def __init__(self, nome: str, cognome: str, peso: float, altezza: float) -> None:
+        pass
+
+    def set_peso(self, nuovo_peso: float) -> None:
+        pass
+
+    def set_altezza(self, nuova_altezza: float) -> None:
         pass
