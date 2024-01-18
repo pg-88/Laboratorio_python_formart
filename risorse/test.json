@@ -1,0 +1,10 @@
+{
+    "datiUtenti": [
+        {
+            "userName": "sheldor",
+            "firstName": "Sheldon", 
+            "lastName": "Cooper",
+            "password": "314#mrSpocK"
+        }
+    ]
+}
