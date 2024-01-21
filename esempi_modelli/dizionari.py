@@ -32,7 +32,9 @@ print(tabellina_tre)
 chiave = [f"nome{i + 1}" for i in range(3)] 
 print(chiave)
 valore = ["Maria", "Sara", "Sofia"]
-print(dict(zip(chiave, valore)))
+
+nomi = dict(zip(chiave, valore))
+print(nomi)
 
 pranzo = {
     "antipasto": "sarde in saor e polenta",
@@ -50,3 +52,10 @@ lista_spesa = {
     4: "caffé",
     5: "caffé"
 }
+
+## Accedere ai valori del dictionary
+print("Al pranzo verrà servito " + pranzo["secondo"] + " come secondo piatto")
+print(pranzo["antipasto"])
+
+for i in lista_spesa:
+    print(lista_spesa[i])
